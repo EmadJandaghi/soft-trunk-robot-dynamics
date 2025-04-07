@@ -10,3 +10,10 @@ This repository contains the code for the paper *"Motion Dynamics Modeling and F
 - `data/`: Placeholder for sample `u1all_Fault3_motor4.npy` data files.
 - `docs/`: Research paper in PDF format.
 
+## Arduino Setup
+The `motor_trajectory_control_data_collection.py` script requires an Arduino running Firmata to control stepper motors. Follow these steps:
+1. Upload `arduino/StandardFirmata.ino` to your Arduino.
+2. Connect the Arduino to your computer (default: COM7).
+3. Install `pyfirmata` (`pip install pyfirmata`) on your host machine.
+4. Run `motor_control_data_collection.py` to collect motion data.
+
