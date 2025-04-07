@@ -7,6 +7,6 @@ This repository contains the code for the paper *"Motion Dynamics Modeling and F
   - `dynamic_estimation_fault_detection_nn.py`: Neural network-based fault detection with error analysis.
   - `deterministic_learning_rbfnn.py`: RBFNN training using deterministic learning.
   - `motor_trajectory_control_data_collection.py`: Stepper motor control and data collection.
-- `data/`: Placeholder for sample `.npy` data files (not included).
+- `data/`: Placeholder for sample `u1all_Fault3_motor4.npy` data files.
 - `docs/`: Research paper in PDF format.
 
