@@ -17,3 +17,7 @@ The `motor_trajectory_control_data_collection.py` script requires an Arduino run
 3. Install `pyfirmata` (`pip install pyfirmata`) on your host machine.
 4. Run `motor_control_data_collection.py` to collect motion data.
 
+## Requirements
+Install dependencies with:
+```bash
+pip install -r requirements.txt
